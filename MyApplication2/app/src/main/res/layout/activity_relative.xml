@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="C"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btn_u"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="U"
+        android:layout_above="@+id/btn_c"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_d"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="D"
+        android:layout_below="@+id/btn_c"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_l"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="L"
+        android:layout_toLeftOf="@+id/btn_c"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/btn_r"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="R"
+        android:layout_toRightOf="@+id/btn_c"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/text_u"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="U"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <TextView
+        android:id="@+id/text_d"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="D"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/text_l"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="L"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/text_r"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="R"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>
